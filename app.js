@@ -13,7 +13,7 @@ class Book {
       const books = Store.getBooks();
   
       books.forEach((book) => UI.addBookToList(book));
-    }//
+    }
   
     static addBookToList(book) {
       const list = document.querySelector('#book-list');
